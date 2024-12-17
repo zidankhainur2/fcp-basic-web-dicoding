@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech For Future</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Tech For Future</h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="content-section">
+        <div class="dropdown">
+          <button
+            class="dropdown-btn"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Pilih Kategori
+            <span class="dropdown-icon">▼</span>
+          </button>
+          <div class="dropdown-content" role="menu">
+            <button data-category="AI" role="menuitem">
+              Kecerdasan Buatan
+            </button>
+            <button data-category="Space" role="menuitem">
+              Eksplorasi Luar Angkasa
+            </button>
+            <button data-category="Future" role="menuitem">
+              Inovasi Masa Depan
+            </button>
+          </div>
+        </div>
+
+        <article id="article">
+          <p id="article-content">
+            Teknologi berkembang pesat dan memengaruhi semua aspek kehidupan
+            kita. Dari kecerdasan buatan hingga eksplorasi luar angkasa, dunia
+            terus berubah dengan cepat.
+          </p>
+          <footer>
+            <p>Ditulis oleh: <em>Jett Carter</em></p>
+          </footer>
+        </article>
+      </section>
+
+      <aside id="biodata">
+        <div class="profile-container">
+          <img
+            src="/assets/jett.jpeg"
+            alt="Foto Profil Jett Carter"
+            class="profile-picture"
+            loading="lazy"
+          />
+          <h3>Tentang Penulis</h3>
+          <div class="profile-details">
+            <p><strong>Nama:</strong> Jett Carter</p>
+            <p><strong>Pekerjaan:</strong> Penulis Teknologi</p>
+            <p>
+              <strong>Hobi:</strong> Membaca, menulis, dan mengeksplorasi
+              teknologi baru
+            </p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>zidankhainur © <span id="current-year">2024</span></p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
